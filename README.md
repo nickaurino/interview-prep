@@ -6,15 +6,76 @@ Committing daily as I prep for new-grad SWE / MLE interviews.
 ## Running
 
 ```bash
-python3 valid_palindrome.py
+python3 two_sum.py
 ```
 
-Each file prints `PASS` / `FAIL` for its test cases via `harness.py`.
+Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harness.py`).
 
 ## Solutions
 
+### Arrays & Hashing
 | Problem | # | Pattern | Complexity |
 |---|---|---|---|
-| Valid Palindrome | 125 | two pointers | O(n) time, O(1) space |
-| Container With Most Water | 11 | two pointers | O(n) time, O(1) space |
-| Group Anagrams | 49 | hashmap (group by key) | O(n·k log k) time |
+| Two Sum | 1 | hashmap | O(n) |
+| Contains Duplicate | 217 | hash set | O(n) |
+| Valid Anagram | 242 | hashmap counts | O(n) |
+| Group Anagrams | 49 | hashmap group-by-key | O(n·k log k) |
+| Isomorphic Strings | 205 | two-way hashmap (bijection) | O(n) |
+
+### Two Pointers
+| Problem | # | Complexity |
+|---|---|---|
+| Valid Palindrome | 125 | O(n) time, O(1) space |
+| Two Sum II (sorted input) | 167 | O(n) |
+| Reverse String | 344 | O(n) in place |
+| Container With Most Water | 11 | O(n) time, O(1) space |
+
+### Sliding Window
+| Problem | # | Complexity |
+|---|---|---|
+| Longest Substring Without Repeating Characters | 3 | O(n) |
+
+### Stack
+| Problem | # | Complexity |
+|---|---|---|
+| Valid Parentheses | 20 | O(n) |
+
+### Binary Search
+| Problem | # | Complexity |
+|---|---|---|
+| Binary Search | 704 | O(log n) |
+
+### Linked List
+| Problem | # | Complexity |
+|---|---|---|
+| Reverse Linked List | 206 | O(n) time, O(1) space |
+| Middle of the Linked List | 876 | fast/slow, O(n) time, O(1) space |
+
+### Trees
+| Problem | # | Complexity |
+|---|---|---|
+| Maximum Depth of Binary Tree | 104 | O(n) |
+| Count Tree Nodes | 222 | O(n) |
+| Invert Binary Tree | 226 | O(n) |
+
+### Graphs / Grid
+| Problem | # | Pattern | Complexity |
+|---|---|---|---|
+| Number of Islands | 200 | grid DFS (flood fill) | O(rows·cols) |
+
+### Intervals
+| Problem | # | Complexity |
+|---|---|---|
+| Merge Intervals | 56 | O(n log n) |
+| Byte-Range Chunks (incremental merge) | — | O(n² log n) |
+
+### Dynamic / Greedy
+| Problem | # | Pattern | Complexity |
+|---|---|---|---|
+| Best Time to Buy and Sell Stock | 121 | one-pass running best | O(n) |
+
+### Matrix
+| Problem | # | Complexity |
+|---|---|---|
+| Submatrix Search | — | O(R·C·k²) |
+| Submatrix Pattern Match (letter↔digit bijection) | — | O(R·C·k²) |
