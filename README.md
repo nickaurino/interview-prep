@@ -62,6 +62,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Problem | # | Pattern | Complexity |
 |---|---|---|---|
 | Number of Islands | 200 | grid DFS (flood fill) | O(rows·cols) |
+| Max Area of Island | 695 | grid DFS (flood returns area) | O(rows·cols) |
 
 ### Intervals
 | Problem | # | Complexity |
