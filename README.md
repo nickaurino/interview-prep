@@ -29,6 +29,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Two Sum II (sorted input) | 167 | O(n) |
 | Reverse String | 344 | O(n) in place |
 | Container With Most Water | 11 | O(n) time, O(1) space |
+| Move Zeroes | 283 | read/write pointers, O(n) time, O(1) space |
 
 ### Sliding Window
 | Problem | # | Complexity |
@@ -50,6 +51,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 |---|---|---|
 | Reverse Linked List | 206 | O(n) time, O(1) space |
 | Middle of the Linked List | 876 | fast/slow, O(n) time, O(1) space |
+| Linked List Cycle | 141 | Floyd's fast/slow, O(n) time, O(1) space |
 
 ### Trees
 | Problem | # | Complexity |
@@ -68,12 +70,19 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Problem | # | Complexity |
 |---|---|---|
 | Merge Intervals | 56 | O(n log n) |
+| Insert Interval | 57 | three-phase sweep, O(n) |
 | Byte-Range Chunks (incremental merge) | — | O(n² log n) |
 
 ### Dynamic / Greedy
 | Problem | # | Pattern | Complexity |
 |---|---|---|---|
 | Best Time to Buy and Sell Stock | 121 | one-pass running best | O(n) |
+| Maximum Subarray | 53 | Kadane's (running best) | O(n) |
+
+### Math / Simulation
+| Problem | # | Complexity |
+|---|---|---|
+| Fizz Buzz | 412 | string accumulator, O(n) |
 
 ### Matrix
 | Problem | # | Complexity |
