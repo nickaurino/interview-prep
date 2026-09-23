@@ -73,6 +73,11 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Insert Interval | 57 | three-phase sweep, O(n) |
 | Byte-Range Chunks (incremental merge) | — | O(n² log n) |
 
+### Backtracking
+| Problem | # | Pattern | Complexity |
+|---|---|---|---|
+| Subsets | 78 | choose / explore / un-choose | O(n·2ⁿ) |
+
 ### Dynamic / Greedy
 | Problem | # | Pattern | Complexity |
 |---|---|---|---|
