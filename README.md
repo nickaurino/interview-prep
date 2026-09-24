@@ -21,6 +21,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Valid Anagram | 242 | hashmap counts | O(n) |
 | Group Anagrams | 49 | hashmap group-by-key | O(n·k log k) |
 | Isomorphic Strings | 205 | two-way hashmap (bijection) | O(n) |
+| Longest Consecutive Sequence | 128 | hash set + run-start guard | O(n) |
 
 ### Two Pointers
 | Problem | # | Complexity |
@@ -40,6 +41,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Problem | # | Complexity |
 |---|---|---|
 | Valid Parentheses | 20 | O(n) |
+| Daily Temperatures | 739 | monotonic stack of indices, O(n) |
 
 ### Binary Search
 | Problem | # | Complexity |
