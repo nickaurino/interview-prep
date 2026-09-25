@@ -86,6 +86,11 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Best Time to Buy and Sell Stock | 121 | one-pass running best | O(n) |
 | Maximum Subarray | 53 | Kadane's (running best) | O(n) |
 
+### Randomization
+| Problem | # | Pattern | Complexity |
+|---|---|---|---|
+| Shuffle an Array | 384 | Fisher-Yates (in place, without replacement) | O(n) time, O(1) space |
+
 ### Math / Simulation
 | Problem | # | Complexity |
 |---|---|---|
