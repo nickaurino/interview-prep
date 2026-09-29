@@ -22,6 +22,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Group Anagrams | 49 | hashmap group-by-key | O(n·k log k) |
 | Isomorphic Strings | 205 | two-way hashmap (bijection) | O(n) |
 | Longest Consecutive Sequence | 128 | hash set + run-start guard | O(n) |
+| Valid Sudoku | 36 | hash sets per row / column / box | O(1) for a fixed 9×9 |
 
 ### Two Pointers
 | Problem | # | Complexity |
