@@ -93,6 +93,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Problem | # | Pattern | Complexity |
 |---|---|---|---|
 | Leaderboard Ranking (score desc, name asc) | — | tuple sort key, negated score | O(n log n) |
+| Reorder Data in Log Files | 937 | key function + stable sort | O(n log n) |
 
 ### Randomization
 | Problem | # | Pattern | Complexity |
