@@ -90,6 +90,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 |---|---|---|---|
 | Best Time to Buy and Sell Stock | 121 | one-pass running best | O(n) |
 | Maximum Subarray | 53 | Kadane's (running best) | O(n) |
+| Jump Game | 55 | greedy, walk back moving the goal | O(n) time, O(1) space |
 
 ### Sorting
 | Problem | # | Pattern | Complexity |
