@@ -84,6 +84,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 |---|---|---|---|
 | Subsets | 78 | choose / explore / un-choose | O(n·2ⁿ) |
 | Permutations | 46 | loop over unused numbers, choose / explore / un-choose | O(n·n!) |
+| Combinations | 77 | start index, only look forward | O(k·C(n,k)) |
 
 ### Dynamic / Greedy
 | Problem | # | Pattern | Complexity |
