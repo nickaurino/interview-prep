@@ -48,6 +48,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Problem | # | Complexity |
 |---|---|---|
 | Binary Search | 704 | O(log n) |
+| Search Insert Position | 35 | O(log n) time, O(1) space |
 
 ### Linked List
 | Problem | # | Complexity |
