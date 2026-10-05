@@ -2,7 +2,7 @@ from harness import run
 
 # Best Time to Buy and Sell Stock II (LeetCode #122) — greedy.
 # Any climb equals the sum of its daily steps, so take every positive day-to-day difference.
-# O(n) time, O(1) extra space (prices[1:] slice aside).
+# O(n) time. The prices[1:] slice copies the list, so O(n) space (an index loop would be O(1)).
 
 
 def max_profit(prices):
