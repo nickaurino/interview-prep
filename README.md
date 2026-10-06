@@ -79,6 +79,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 |---|---|---|
 | Merge Intervals | 56 | O(n log n) |
 | Insert Interval | 57 | three-phase sweep, O(n) |
+| Meeting Rooms | 252 | O(n log n) |
 | Byte-Range Chunks (incremental merge) | — | O(n² log n) |
 
 ### Backtracking
