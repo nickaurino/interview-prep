@@ -96,6 +96,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Best Time to Buy and Sell Stock II | 122 | greedy, sum every positive daily step | O(n) |
 | Maximum Subarray | 53 | Kadane's (running best) | O(n) |
 | Jump Game | 55 | greedy, walk back moving the goal | O(n) time, O(1) space |
+| Fibonacci Number | 509 | bottom-up DP | O(n) |
 
 ### Sorting
 | Problem | # | Pattern | Complexity |
