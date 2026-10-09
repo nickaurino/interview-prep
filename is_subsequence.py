@@ -1,25 +1,19 @@
 from harness import run
 
 # Is Subsequence (LeetCode #392) — two pointers.
-# Walk t once, keeping a count of how many letters of s are matched so far.
-# The slice s[count:count+1] returns "" past the end instead of raising an IndexError.
+# Walk t once with a pointer i into s; each time t's letter matches s[i], move i forward.
+# s is a subsequence if i reaches the end of s.
 # O(t) time, O(1) space.
 
 
 def is_subsequence(s, t):
-    if s == "": return True
-
-    next_char = s[0:1]
-    count = 0
+    i = 0
 
     for char in t:
-        if char == next_char:
-            count += 1
-            next_char = s[count:count+1]
-        if count == len(s):
-            return True
+        if i < len(s) and s[i] == char:
+            i += 1
 
-    return False
+    return i == len(s)
 
 
 run("is_subsequence", is_subsequence, [
