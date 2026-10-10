@@ -99,6 +99,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Maximum Subarray | 53 | Kadane's (running best) | O(n) |
 | Jump Game | 55 | greedy, walk back moving the goal | O(n) time, O(1) space |
 | Fibonacci Number | 509 | bottom-up DP | O(n) |
+| Lemonade Change | 860 | greedy, track bill counts, spend the $10 first | O(n) time, O(1) space |
 
 ### Sorting
 | Problem | # | Pattern | Complexity |
