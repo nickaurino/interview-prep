@@ -24,6 +24,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Longest Consecutive Sequence | 128 | hash set + run-start guard | O(n) |
 | Valid Sudoku | 36 | hash sets per row / column / box | O(1) for a fixed 9×9 |
 | First Unique Character in a String | 387 | Counter, then first count of 1 | O(n) time, O(1) space |
+| Majority Element | 169 | count with early exit at > n/2 | O(n) time, O(n) space |
 
 ### Two Pointers
 | Problem | # | Complexity |
