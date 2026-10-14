@@ -25,6 +25,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Valid Sudoku | 36 | hash sets per row / column / box | O(1) for a fixed 9×9 |
 | First Unique Character in a String | 387 | Counter, then first count of 1 | O(n) time, O(1) space |
 | Majority Element | 169 | count with early exit at > n/2 | O(n) time, O(n) space |
+| Majority Element (O(1) space) | 169 | Boyer-Moore voting, cancel out pairs | O(n) time, O(1) space |
 
 ### Two Pointers
 | Problem | # | Complexity |
