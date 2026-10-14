@@ -36,6 +36,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Container With Most Water | 11 | O(n) time, O(1) space |
 | Move Zeroes | 283 | read/write pointers, O(n) time, O(1) space |
 | Is Subsequence | 392 | O(t) time, O(1) space |
+| Backspace String Compare | 844 | backward pointers + skip helper, O(n + m) time, O(1) space |
 
 ### Sliding Window
 | Problem | # | Complexity |
