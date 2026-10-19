@@ -69,6 +69,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 |---|---|---|
 | Maximum Depth of Binary Tree | 104 | O(n) |
 | Count Tree Nodes | 222 | O(n) |
+| Binary Tree Sum | — | recursion (aggregate), O(n) |
 | Invert Binary Tree | 226 | O(n) |
 | Binary Tree Level Order Traversal | 102 | BFS, O(n) time, O(n) space |
 | Binary Tree Right Side View | 199 | BFS (last node per level), O(n) |
