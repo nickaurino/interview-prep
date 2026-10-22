@@ -44,6 +44,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Longest Substring Without Repeating Characters | 3 | O(n) |
 | Maximum Sum of k in a Row (Max Average Subarray I) | 643 | O(n) |
 | Contains Duplicate II | 219 | O(n) time, O(k) space |
+| Max Consecutive Ones III | 1004 | variable window, O(n) time, O(1) space |
 
 ### Stack
 | Problem | # | Complexity |
