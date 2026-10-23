@@ -51,6 +51,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 |---|---|---|
 | Valid Parentheses | 20 | O(n) |
 | Daily Temperatures | 739 | monotonic stack of indices, O(n) |
+| Backspace String Compare (stack) | 844 | O(n + m) time and space |
 
 ### Binary Search
 | Problem | # | Complexity |
