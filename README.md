@@ -128,5 +128,6 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 ### Matrix
 | Problem | # | Complexity |
 |---|---|---|
+| Find Position in Grid | — | O(R·C) |
 | Submatrix Search | — | O(R·C·k²) |
 | Submatrix Pattern Match (letter↔digit bijection) | — | O(R·C·k²) |
