@@ -125,6 +125,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Problem | # | Complexity |
 |---|---|---|
 | Fizz Buzz | 412 | string accumulator, O(n) |
+| Missing Number | 268 | expected sum minus real sum, O(n) time, O(1) space |
 
 ### Matrix
 | Problem | # | Complexity |
