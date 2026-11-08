@@ -28,6 +28,7 @@ Each file prints `PASS` / `FAIL` for its test cases (some via the shared `harnes
 | Majority Element (O(1) space) | 169 | Boyer-Moore voting, cancel out pairs | O(n) time, O(1) space |
 | Ransom Note | 383 | Counter, spend letters | O(n + m) time |
 | Roman to Integer | 13 | dict lookup, right to left, subtract when smaller | O(n) time |
+| Unique Number of Occurrences | 1207 | count dict, then a set of counts | O(n) time |
 
 ### Two Pointers
 | Problem | # | Complexity |
